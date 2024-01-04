@@ -1,0 +1,100 @@
+.matchcenter-field {
+  background-image: url(/public/field-bg.png);
+  width: 400px;
+  height: 500px;
+  z-index: -1;
+  position: absolute;
+  right: 70px;
+  top: 80px;
+}
+
+.matchcenter-field .player {
+  position: absolute;
+  border: 1px solid #38870f;
+  display: none;
+  -moz-box-shadow: 1px 1px 2px #6a9627;
+  -webkit-box-shadow: 1px 1px 2px #6a9627;
+  box-shadow: 1px 1px 2px #6a9627;
+  transition: 1s;
+}
+
+.matchcenter-field .player-nr {
+  width: 20px;
+  float: left;
+  color: #5f9610;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #a8ce36;
+  padding: 4px 4px;
+  text-align: center;
+  font-size: 12px;
+  border-right: 1px solid #38870f;
+  border-top: 1px solid #8dc639;
+  background: -moz-linear-gradient(top, #7db42e, #8cc539);
+  background: -webkit-gradient(
+    linear,
+    center top,
+    center bottom,
+    from(#7db42e),
+    to(#8cc539)
+  );
+  background: -o-linear-gradient(top, #7db42e, #8cc539);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db42e', endColorstr='#8cc539');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#7db42e', endColorstr='#8cc539')";
+  background: linear-gradient(top, #7db42e, #8cc539);
+}
+
+.matchcenter-field .player-name {
+  width: 65px;
+  color: white;
+  float: left;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #61871c;
+  padding: 4px 6px;
+  font-size: 12px;
+  border-top: 1px solid #beda5a;
+  background: -moz-linear-gradient(top, #adcf35, #8ac439);
+  background: -webkit-gradient(
+    linear,
+    center top,
+    center bottom,
+    from(#adcf35),
+    to(#8ac439)
+  );
+  background: -o-linear-gradient(top, #adcf35, #8ac439);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#adcf35', endColorstr='#8ac439');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#adcf35', endColorstr='#8ac439')";
+  background: linear-gradient(top, #adcf35, #8ac439);
+}
+
+.lineups {
+  text-align: left;
+  position: absolute;
+  right: 53px;
+  top: 560px;
+  width: 400px;
+}
+
+.players-options {
+  background-color: rgb(13, 12, 12);
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  right: 0px;
+  left: 0px;
+}
+
+.click-manage {
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.option {
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: rgb(0, 209, 178, 0.6);
+}
